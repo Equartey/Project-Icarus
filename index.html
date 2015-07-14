@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Easter Egg</title>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<style>
+			body {
+				background-color: lightgrey;
+				font-family: 'Roboto', sans-serif;
+			}
+			h1 {
+				margin: 0 auto;
+				position: absolute;
+				left: 80px;
+				display: inline-block;
+				font-size: 2em;
+				color: #CF3601;
+			}
+			em {
+				color: #87BFFA;
+			}
+			#canvas {
+				margin: 2.5em auto 2em auto;
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: 0;
+				display: inline-block;
+				border: 1px solid #000;
+				background-color: #FFF;
+				cursor: crosshair;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Project <em>Icarus</em></h1>
+		<canvas id="canvas" width="1120" height="630"></canvas>
+	</body>
+	<script src="icarus.js"></script>
+</html>
